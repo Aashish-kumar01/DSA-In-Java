@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class hw2 {
+public class hw2arr {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of the array: ");

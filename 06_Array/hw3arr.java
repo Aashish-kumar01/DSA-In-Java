@@ -1,4 +1,4 @@
-public class hw3 {
+public class hw3arr {
     public static void main(String[] args) {
         int[] arr = {2, 4, 53, 63, 57, 27, 17};
         mul(arr);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class hw4 {
+public class hw4arr {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the digit: ");
