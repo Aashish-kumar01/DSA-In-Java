@@ -1,15 +1,15 @@
 // import java.util.Stack;
 
-class Node{
+class NodeSt{
     int val;
-    Node next;
-    Node(int val){
+    NodeSt next;
+    NodeSt(int val){
         this.val = val;
     }
 }
 
 class MyStack{
-    Node head;
+    NodeSt head;
     int len;
 
     int peek() throws Exception{
@@ -20,7 +20,7 @@ class MyStack{
     }
 
     void push(int ele){
-        Node temp = new Node(ele);
+        NodeSt temp = new NodeSt(ele);
         if(len == 0){
             head = temp;
             len++;
@@ -46,7 +46,7 @@ class MyStack{
     }
 
     void display(){
-        Node temp = head;
+        NodeSt temp = head;
         while(temp != null){
             System.out.println(temp.val);
             temp = temp.next;
