@@ -1,8 +1,8 @@
-class Node2{
+class NodeLL2{
     int val; // default 0
-    Node2 next; // default null
+    NodeLL2 next; // default null
 
-    Node2(int val){
+    NodeLL2(int val){
         this.val = val;
     }
 }
@@ -10,11 +10,11 @@ class Node2{
 public class NodeOfLinkedList {
     public static void main(String[] args) {
         // 10->20->30->40->50
-        Node2 a = new Node2(10);
-        Node2 b = new Node2(20);
-        Node2 c = new Node2(30);
-        Node2 d = new Node2(40);
-        Node2 e = new Node2(50);
+        NodeLL2 a = new NodeLL2(10);
+        NodeLL2 b = new NodeLL2(20);
+        NodeLL2 c = new NodeLL2(30);
+        NodeLL2 d = new NodeLL2(40);
+        NodeLL2 e = new NodeLL2(50);
         // Connect karenge (Link karenge)
         a.next = b;
         b.next = c;

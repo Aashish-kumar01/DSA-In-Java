@@ -1,23 +1,23 @@
-class Node1{ // user defined data type
+class NodeLL1{ // user defined data type
     int val;
-    Node1 next;
+    NodeLL1 next;
 
-    Node1(int val){
+    NodeLL1(int val){
         this.val = val;
     }
 }
 
 class linkedlist{ // user defined data structure
-    Node1 head; // null
-    Node1 tail; // null
+    NodeLL1 head; // null
+    NodeLL1 tail; // null
     int size;
     // linkedlist(){
     //     head = tail = null;
     // }
 
-    // Add the Node1 at the head of linked list
+    // Add the NodeLL1 at the head of linked list
     void addAtHead(int val){
-        Node1 temp = new Node1(val);
+        NodeLL1 temp = new NodeLL1(val);
         if(head == null) head = tail = temp;
         else{
             temp.next = head;
@@ -26,9 +26,9 @@ class linkedlist{ // user defined data structure
         size++;
     }
 
-    // Add a Node1 at the tail of the linked list
+    // Add a NodeLL1 at the tail of the linked list
     void addAtTail(int val){
-        Node1 temp = new Node1(val);
+        NodeLL1 temp = new NodeLL1(val);
         if(head == null) head = tail = temp;
         else{
             this.tail.next = temp;
@@ -43,13 +43,13 @@ class linkedlist{ // user defined data structure
     //         addAtHead(val);
     //         return;
     //     }
-    //     Node1 temp = new Node1(val);
+    //     NodeLL1 temp = new NodeLL1(val);
     //     this.tail.next = temp;
     //     this.tail = temp;
     //     size++;
     // } 
 
-    // Delete the Node1 at the Head of the Linked list
+    // Delete the NodeLL1 at the Head of the Linked list
     void deleteAtHead(){
         if(head == null){
             System.out.println("Linked list is empty");
@@ -63,7 +63,7 @@ class linkedlist{ // user defined data structure
     // search the value in the Linked list
     int search(int val){
         if(head == null) return -1;
-        Node1 temp = head;
+        NodeLL1 temp = head;
         int indx = 0;
         while(temp != null){
             if(temp.val == val) return indx;
@@ -87,8 +87,8 @@ class linkedlist{ // user defined data structure
             addAtTail(val);
             return;
         }
-        Node1 t = new Node1(val);
-        Node1 temp = head;
+        NodeLL1 t = new NodeLL1(val);
+        NodeLL1 temp = head;
         for(int i = 0; i<indx-1; i++){
             temp = temp.next;
         }
@@ -97,13 +97,13 @@ class linkedlist{ // user defined data structure
         size++;
     }
 
-    // Delete the Node1 at some index in linked list
+    // Delete the NodeLL1 at some index in linked list
     void delete(int indx){
         if(indx < 0 || indx >= size){
-            System.out.println("Can't delete the Node1 at the given index");
+            System.out.println("Can't delete the NodeLL1 at the given index");
         }
         // else if(indx == size-1){
-        //     Node1 temp = head;
+        //     NodeLL1 temp = head;
         //     for(int i = 0; i<indx-1; i++){
         //         temp = temp.next;
         //     }
@@ -115,7 +115,7 @@ class linkedlist{ // user defined data structure
             deleteAtHead();
         }
         else{
-            Node1 temp = head;
+            NodeLL1 temp = head;
             for(int i = 0; i<indx-1; i++){
                 temp = temp.next;
             }
@@ -127,7 +127,7 @@ class linkedlist{ // user defined data structure
 
     // get the value of the Linked list at some index
     int get(int indx){
-        Node1 temp = head;
+        NodeLL1 temp = head;
         for(int i = 1; i<=indx; i++){
             temp = temp.next;
         }
@@ -137,7 +137,7 @@ class linkedlist{ // user defined data structure
     // print the Linked list
     void display(){
         if(head == null) return;
-        Node1 temp = head;
+        NodeLL1 temp = head;
         while(temp != null){
             System.out.print(temp.val+" ");
             temp = temp.next;
