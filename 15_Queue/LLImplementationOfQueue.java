@@ -1,17 +1,17 @@
-class Node{
+class NodeQu{
     int val;
-    Node next;
-    Node(int val){
+    NodeQu next;
+    NodeQu(int val){
         this.val = val;
     }
 }
 
 class MyQueue{
-    Node head;
-    Node tail;
+    NodeQu head;
+    NodeQu tail;
     int size;
     void add(int val){
-        Node temp = new Node(val);
+        NodeQu temp = new NodeQu(val);
         if(size == 0) head = tail = temp;
         else{
             tail.next = temp;
@@ -40,7 +40,7 @@ class MyQueue{
     }
 
     void display(){
-        Node temp = head;
+        NodeQu temp = head;
         if(temp == null){
             System.out.println("Queue is empty");
             return;
