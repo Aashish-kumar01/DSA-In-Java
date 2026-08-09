@@ -1,0 +1,11 @@
+1. Last Stone Weight (LeetCode 1046)
+2. Nearly Sorted (GFG)
+3. Minimum cost of ropes (GFG)
+4. K closest points to origin(Leetcode 973)
+5. Find K closest elements(Leetcode 658)
+6. Top K frequent elements(Leetcode 347)
+7. Is Binary tree heap(GFG Practice)
+8. BST to max heap(GFG Practice)
+9. Find median in Datastream(leetcode 295)
+10. Find median in a Stream(GFG Practice)
+11. Smallest Range Covering Elements from K Lists(Leetcode 632) and Same question on gfg
