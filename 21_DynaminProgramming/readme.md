@@ -16,4 +16,9 @@
 16. Coin change(Leetcode 322)
 17. Target sum(Leetcode 494)
 18. Longest common subsequence(Leetcode 1143)
-19. 
+19. Longest Palindromic Subsequence(LeetCode 516)
+20. Minimum Insertion Steps to make a string palindrome(Leetcode 1312)
+21. Edit Distance(Leetcode 72)
+22. Maximum length of repeated subarray(Leetcode 718)
+23. Shortest common supersequence(Leetcode 1092)
+24. 

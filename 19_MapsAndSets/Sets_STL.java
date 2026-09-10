@@ -5,7 +5,7 @@ public class Sets_STL {
     public static void main(String[] args) {
         // HashSet<Integer> set = new HashSet<>();
         TreeSet<Integer> set = new TreeSet<>();
-        // TreeSet is an ordered set 
+        // TreeSet is an ordered set
         // TreeSet ke andar add karne ki search karne remove karne ki time complexity O(log n)
         // agar koi value treeSet/hashSet me nahi hai fir bhi usko remove kare to wo hame error nahi deta hai
         // It is implemented by (Balanced) Binary Search tree
